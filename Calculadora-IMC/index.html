@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=B612:wght@700&family=Cinzel&family=Kufam:ital,wght@0,600;0,700;1,700&family=Nosifer&family=Nunito:wght@700&family=Poppins:wght@200;300&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <article>
+        <form id="myform" onsubmit="calculo()">
+            <p>Calculadora </p>       
+            <input id="weight" type="number" required="required"  name="name" placeholder="Seu peso">
+            <input  id="height" type="number"  name="name" required="required" placeholder="Altura em Cm">
+            <button id="botão" type="submit" >CALCULAR</button>
+        </form>                      
+        <div id="result" class="box">
+            <p>CLASSIFICAÇÂO & IMC(KG/M²) </p>
+            <div id="numbers" class="results"> </div>
+        </div>            
+    </article>
+    <script src="script.js" defer></script>
+</body>
+</html>
