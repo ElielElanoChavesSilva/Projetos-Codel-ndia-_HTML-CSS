@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+article {
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/* Aqui se encontra os tetxos */
+
+.text1 {
+    width: 576px;
+    height: 100%px;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 106px;
+    color: white;
+}
+
+.text2 {
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: rgba(115, 115, 115, 1);
+}
+
+.lyrics {
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    margin-left: 70px;
+}
+
+p {
+    position: absolute;
+    color: white;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+}
+
+p1 {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(115, 115, 115, 1);
+    margin-left: 20px;
+}
+
+p2 {
+    display: flex;
+    font-family: 'inter';
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    margin-top: 80px;
+}
+
+p3 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+p4 {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+input {
+    width: 644px;
+    height: 40px;
+    background-color: #EBEBEB;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 257px;
+}
+
+.title {
+    display: flex;
+    width: 1200px;
+}
+ 
+/* Botões */
+
+.button1 {
+    width: 188px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 104px;
+    background-color:#3772FF ;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Inter';
+}
+
+.button2 {
+    width: 188px;
+    height: 40px;
+    align-items: center;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 32px;
+    color: white;
+    border-radius: 4px;
+    background-color: #3772FF;    
+}
+
+.button3 {
+    width: 188px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #3772FF ;
+    border-radius: 4px;
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 14px ;
+    margin-top: 32px;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.status {
+    display: flex;
+    margin-top: 68px;
+    gap: 47px;
+}
+
+.n {
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.imgRight {
+    width: 396px;
+    height: 436px;
+    margin-top: 116px;
+    margin-left: 321px;
+}
+
+.images {
+    width: auto;
+    display: flex;
+    margin-top: 120px;
+    gap: 54px;
+}
+
+img {
+    width: 200px;
+    height: 194px;
+    border-radius: 4px;
+}
+
+.artistas {
+    width: 100%;
+    display: flex;
+    height: 484px;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.art {
+    width: 396px;
+    height: 484px;
+}
+
+.names {
+    width: 1200px;
+    display: flex;
+    position: absolute;
+    margin-top: 24px;
+    color: white;
+}
+
+.lowe{
+    width: 396px;
+    height: 484px;
+    margin-left: 30px;
+}
+
+.eleanor{
+    width: 396px;
+    height: 484px;
+    margin-left: 110px;
+}
+
+.leslie{
+    width: 396px;
+    height: 484px;
+    margin-left: 110px;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin-top: 89px;
+    margin-bottom: 88px;
+}
+
+.mais {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    gap: 57px;
+}
+
