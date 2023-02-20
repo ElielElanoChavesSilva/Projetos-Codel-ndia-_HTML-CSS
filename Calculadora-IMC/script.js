@@ -12,7 +12,7 @@ function calculo(){
     var imc=  peso / (altura)
     var res = document.getElementById("numbers")
 
-    result=0;
+    var result=0
 
     if(imc < 18.5){
         result = "Abaixo do peso"    
@@ -32,6 +32,5 @@ function calculo(){
     else{
         result = "Obesidade grau III"
     }
-    
     res.innerHTML=(`<h3>${result}</h3>` + imc.toFixed(2) + " Kg/m²")
 }
