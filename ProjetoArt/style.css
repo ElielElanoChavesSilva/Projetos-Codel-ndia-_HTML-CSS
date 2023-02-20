@@ -22,7 +22,7 @@ article {
     margin-top: 40px;
 }
 
-/* Aqui se encontra os tetxos */
+/* Aqui se encontra os textos */
 
 .text1 {
     width: 576px;
@@ -202,14 +202,14 @@ img {
     margin-top: 24px;
     color: white;
 }
-
-.lowe{
+ 
+.lowe {
     width: 396px;
     height: 484px;
     margin-left: 30px;
 }
 
-.eleanor{
+.eleanor {
     width: 396px;
     height: 484px;
     margin-left: 110px;
@@ -229,7 +229,7 @@ img {
     margin-bottom: 88px;
 }
 
-.mais {
+.plus {
     width: 100%;
     display: flex;
     justify-content: right;
