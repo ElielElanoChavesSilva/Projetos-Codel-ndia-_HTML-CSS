@@ -35,4 +35,3 @@ function calculo(){
     
     res.innerHTML=(`<h3>${result}</h3>` + imc.toFixed(2) + " Kg/m²")
 }
-
